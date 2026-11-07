@@ -1,0 +1,33 @@
+{
+  "duration_seconds": 197,
+  "frames": 5910,
+  "words": 463,
+  "caption_cues": 54,
+  "opening_stops_seconds": [
+    8,
+    20,
+    26,
+    32
+  ],
+  "script_srt_timeline_words_match": true,
+  "cue_overlap": false,
+  "caption_lines_max": 2,
+  "caption_width_max": 42,
+  "minimum_caption_seconds": 1.115,
+  "max_caption_characters_per_second": 17.81,
+  "shot_spans_contiguous": true,
+  "industry_proof_seconds": [
+    20,
+    26
+  ],
+  "industry_source_date": "2026-04-22",
+  "industry_data_period": "January\u2013December 2025",
+  "proof_values_percent": [
+    42.7,
+    61.2
+  ],
+  "call_count_claim_absent": true,
+  "spoken_source_or_2024_intro_absent": true,
+  "caption_basis": "Paced guide for the owner-supplied 8/12/6/6-second opening and retained walkthrough. No recorded VO supplied.",
+  "new_review_or_inference": false
+}

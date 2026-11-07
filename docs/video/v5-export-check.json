@@ -1,0 +1,16 @@
+{
+  "salesdesk-v5-nosubs.mp4": {
+    "duration_seconds": 197,
+    "frames": 5910,
+    "video": "1920x1080 30fps H.264",
+    "audio": "none",
+    "bytes": 7247852
+  },
+  "salesdesk-v5.mp4": {
+    "duration_seconds": 197,
+    "frames": 5910,
+    "video": "1920x1080 30fps H.264",
+    "audio": "none",
+    "bytes": 8375039
+  }
+}

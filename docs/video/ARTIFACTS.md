@@ -1,12 +1,21 @@
 # SalesDesk video artifacts
 
-## Current: v4
+## Current: v5
+
+- [Captioned 3:17 cut](salesdesk-v5.mp4) · [clean cut](salesdesk-v5-nosubs.mp4).
+- [Contact sheet](_review/v5-contact.png) · [opening and scene stops](video-plan-v5.md).
+- [Narration](narration-v5.txt) · [guide captions](subtitles-v5.srt) · [timeline](timeline-v5.json).
+- [Industry sources](SOURCES-v5.md) · [dated benchmark evidence](industry-sources-v5.json).
+- [Source shots](shot-manifest-v5.json) · [export checks](v5-export-check.json).
+- [Current hand-off](RECORDING.md); earlier versions are preserved.
+
+## Previous: v4
 
 - [Captioned 3:24 cut](salesdesk-v4.mp4) · [clean cut](salesdesk-v4-nosubs.mp4).
 - [Contact sheet](_review/v4-contact.png) · [script and scene stops](video-plan-v4.md).
 - [Approved narration](narration-v4.txt) · [guide captions](subtitles-v4.srt) · [timeline](timeline-v4.json).
 - [Shot/source manifest](shot-manifest-v4.json) · [export checks](v4-export-check.json).
-- [Current hand-off](RECORDING.md); earlier v3 files and source takes are preserved.
+- [Current hand-off](RECORDING-v4.md); earlier v3 files and source takes are preserved.
 
 ## Previous: v3
 

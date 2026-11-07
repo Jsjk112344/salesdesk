@@ -3,12 +3,13 @@
 Product name: **SalesDesk** (renamed from ProofDesk on 2026-11-05). Existing operational
 identifiers and dated historical entries retain their original names.
 
-Current checkpoint: **Conversational video v4 is prepared at 3:24.**
-The approved 472-word script has 55 guide caption cues and matching scene stops.
-Both silent exports are 204.000 s, 1080p/30fps. See `docs/video/REVIEW-v4.md`,
-`video-plan-v4.md` and `_review/v4-contact.png`. Original public execution evidence
-is unchanged; no new review or inference was needed. Owner records VO, aligns the
-final captions/audio, uploads and submits. No receipt exists.
+Current checkpoint: **Hook-first video v5 is prepared at 3:17.**
+The 463-word script has 54 guide caption cues. The opening stops at 0:08, 0:20,
+0:26 and 0:32; dated industry statistics precede the retained walkthrough.
+Both silent exports are 197.000 s, 1080p/30fps. See `docs/video/REVIEW-v5.md`,
+`docs/video/video-plan-v5.md` and `docs/video/_review/v5-contact.png`.
+Original public execution evidence is unchanged. Owner records VO, aligns final
+captions/audio, uploads and submits. No receipt exists.
 
 Public URL: https://salesdesk.149.28.51.139.sslip.io
 
@@ -1377,3 +1378,23 @@ allowing untrusted code. Select and evaluate Vultr models with an authorized cal
 - No recorded VO was supplied: these are paced guide cues, not audio-aligned cues.
   Owner records the approved read, aligns final captions/audio and uploads/submits
   by the supplied Sunday Nov 8, 16:00 ET target. No submission or receipt claimed.
+
+## Hook-first video v5 delivery: 2026-11-07 ET
+
+- Reassembled both silent cuts at **197.000 seconds, 5910 frames**, 1920×1080/30fps.
+  Opening stops match the owner's 8/20/26/32-second structure. The universal hook
+  is retained; Maria and the thesis are condensed for the supplied windows.
+- Maria's last contact is a week ago; no unsupported call count is asserted.
+  The proof card shows **42.7%** qualified leads mishandled and **61.2%** of
+  eventual buyers purchasing within three days. Foureyes' April 22, 2026 report
+  covers January–December 2025 activity. Source/date stay on screen, outside VO.
+  Industry populations remain separate from synthetic dealer-group metrics.
+- The existing walkthrough shifts seven seconds earlier, preserving whole-screen
+  footage, parked cursor and locked camera. No new public run, inference, deploy or
+  spend: original source remains 127.493 seconds, 25 accepted replays, $0 new inference.
+- Verified all **54 guide cues / 463 words**, contiguous shots and caption limits;
+  export probes, Python lint/format, repository links and whitespace checks pass.
+  Updated hand-off, review sheet, contact sheet and artifact hashes. No recorded VO
+  was supplied; align final captions to the owner's recording before upload.
+- Owner still records VO, completes the audio edit, uploads and submits by the
+  owner-supplied Sunday November 8, 16:00 ET target. No submission receipt exists.
