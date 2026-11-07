@@ -1,0 +1,551 @@
+{
+  "version": 6,
+  "duration_seconds": 229,
+  "fps": 30,
+  "word_count": 526,
+  "caption_basis": "Paced guide with dealership context and expanded Maria example. No recorded VO supplied.",
+  "opening_fact_corrections": [
+    "Last contact seven days ago; number of calls unknown.",
+    "Purchase timing is conditional on eventual purchase, not all leads or buyer decision time."
+  ],
+  "beats": [
+    {
+      "beat": 1,
+      "label": "Universal follow-up hook",
+      "start": 0,
+      "end": 8,
+      "words": 23,
+      "narration": "Every sales team has the same leak. Not bad products, not bad salespeople. Leads that go quiet, and nobody follows up in time."
+    },
+    {
+      "beat": 2,
+      "label": "Dealership context",
+      "start": 8,
+      "end": 24,
+      "words": 34,
+      "narration": "Let's look at a car dealership. Leads are in the CRM, stock is tracked separately, and follow-ups depend on salespeople checking both. When a customer's first choice sells, a suitable alternative can go unnoticed."
+    },
+    {
+      "beat": 3,
+      "label": "Maria example",
+      "start": 24,
+      "end": 52,
+      "words": 61,
+      "narration": "In our sample dealership, Maria asked about a blue RAV4 Hybrid nine days ago. Her last contact was a week ago. Since then, that car has sold, while a silver alternative has been sitting at the same dealership for 74 days. The dealership has an option worth showing her. But nobody has followed up to find out whether she's still looking."
+    },
+    {
+      "beat": 4,
+      "label": "Industry proof",
+      "start": 52,
+      "end": 58,
+      "words": 14,
+      "narration": "Nearly half of qualified leads are mishandled. Most eventual buyers purchase within three days."
+    },
+    {
+      "beat": 5,
+      "label": "Lead-to-offer thesis",
+      "start": 58,
+      "end": 64,
+      "words": 14,
+      "narration": "Sales slip away when nobody connects the lead to the right offer in time."
+    },
+    {
+      "beat": 6,
+      "label": "SalesDesk introduction",
+      "start": 64,
+      "end": 72,
+      "words": 19,
+      "narration": "SalesDesk is your AI enterprise sales analyst. It does that review overnight and prepares the follow-ups for your team."
+    },
+    {
+      "beat": 7,
+      "label": "Parallel review",
+      "start": 72,
+      "end": 81,
+      "words": 21,
+      "narration": "At 2 AM, it starts reviewing each store's leads and inventory. Six stores run in parallel, in isolated sandboxes on Vultr."
+    },
+    {
+      "beat": 8,
+      "label": "Sandy introduction",
+      "start": 81,
+      "end": 83,
+      "words": 4,
+      "narration": "Let's look at Sandy."
+    },
+    {
+      "beat": 9,
+      "label": "Lead risk",
+      "start": 83,
+      "end": 99,
+      "words": 38,
+      "narration": "SalesDesk reviews its 375 open leads and flags 40 that need attention. Twenty-five have gone at least three days without contact. Others are waiting on a car that has sold, or have an appointment that needs following up."
+    },
+    {
+      "beat": 10,
+      "label": "Inventory search",
+      "start": 99,
+      "end": 107,
+      "words": 19,
+      "narration": "It then checks the available inventory: 117 cars at Sandy and more than sixteen hundred at nearby sister stores."
+    },
+    {
+      "beat": 11,
+      "label": "Match scoring",
+      "start": 107,
+      "end": 119,
+      "words": 28,
+      "narration": "Each potential match is scored against what the customer asked for, including the model, trim, budget and mileage. Cars that have been in stock longer get extra priority."
+    },
+    {
+      "beat": 12,
+      "label": "Qwen brief",
+      "start": 119,
+      "end": 129,
+      "words": 23,
+      "narration": "Qwen, running on Vultr Serverless Inference, uses those checked results to write Sandy's morning brief and three follow-up drafts for its priority leads."
+    },
+    {
+      "beat": 13,
+      "label": "Recorded completion",
+      "start": 129,
+      "end": 135,
+      "words": 14,
+      "narration": "The recorded review finishes across all 24 stores in two minutes and seven seconds."
+    },
+    {
+      "beat": 14,
+      "label": "Maria result",
+      "start": 135,
+      "end": 137,
+      "words": 3,
+      "narration": "Here's Maria's result."
+    },
+    {
+      "beat": 15,
+      "label": "Match explanation",
+      "start": 137,
+      "end": 148,
+      "words": 27,
+      "narration": "The silver RAV4 is the same model and trim she originally asked about. It scores 98 out of 100, with the colour difference shown in the breakdown."
+    },
+    {
+      "beat": 16,
+      "label": "Timeline explanation",
+      "start": 148,
+      "end": 158,
+      "words": 23,
+      "narration": "The manager can see her original enquiry, when she was last contacted, and when the blue car sold, all in the same view."
+    },
+    {
+      "beat": 17,
+      "label": "Draft explanation",
+      "start": 158,
+      "end": 172,
+      "words": 33,
+      "narration": "Below that is a draft message mentioning the available silver RAV4 and asking about her 2017 Honda CR-V trade-in. The salesperson has the context and a message ready to review before contacting her."
+    },
+    {
+      "beat": 18,
+      "label": "Manager approval",
+      "start": 172,
+      "end": 185,
+      "words": 31,
+      "narration": "By the morning, Sandy's manager has a ranked queue of 40 follow-ups. They can review individual drafts or approve the queue together, then download the tasks and drafts for their salespeople."
+    },
+    {
+      "beat": 19,
+      "label": "Group totals",
+      "start": 185,
+      "end": 201,
+      "words": 37,
+      "narration": "Across the group, 1,007 at-risk leads have been matched to a car in stock. The estimated gross associated with those matches is about $3.4 million. Managers can use that view to decide where their teams should focus."
+    },
+    {
+      "beat": 20,
+      "label": "Vultr architecture",
+      "start": 201,
+      "end": 213,
+      "words": 27,
+      "narration": "The scheduler and analysis jobs run on a Vultr VM. Qwen runs on Vultr Serverless Inference, and its output is validated before it reaches the approval queue."
+    },
+    {
+      "beat": 21,
+      "label": "Morning workflow",
+      "start": 213,
+      "end": 225,
+      "words": 27,
+      "narration": "SalesDesk gives your team a practical starting point each morning: which customers to follow up with, which cars to offer, and a draft they can work from."
+    },
+    {
+      "beat": 22,
+      "label": "Close",
+      "start": 225,
+      "end": 229,
+      "words": 6,
+      "narration": "SalesDesk. Your AI enterprise sales analyst."
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.15,
+      "end": 2.32,
+      "text": "Every sales team has the same leak.",
+      "beat": 1
+    },
+    {
+      "start": 2.39,
+      "end": 4.643,
+      "text": "Not bad products, not bad salespeople.",
+      "beat": 1
+    },
+    {
+      "start": 4.713,
+      "end": 7.8,
+      "text": "Leads that go quiet, and nobody follows up\nin time.",
+      "beat": 1
+    },
+    {
+      "start": 8.15,
+      "end": 12.882,
+      "text": "Let's look at a car dealership. Leads are\nin the CRM,",
+      "beat": 2
+    },
+    {
+      "start": 12.952,
+      "end": 14.771,
+      "text": "stock is tracked separately,",
+      "beat": 2
+    },
+    {
+      "start": 14.841,
+      "end": 18.181,
+      "text": "and follow-ups depend on salespeople\nchecking both.",
+      "beat": 2
+    },
+    {
+      "start": 18.251,
+      "end": 20.764,
+      "text": "When a customer's first choice sells,",
+      "beat": 2
+    },
+    {
+      "start": 20.834,
+      "end": 23.8,
+      "text": "a suitable alternative can go unnoticed.",
+      "beat": 2
+    },
+    {
+      "start": 24.15,
+      "end": 30.635,
+      "text": "In our sample dealership, Maria asked\nabout a blue RAV4 Hybrid nine days ago.",
+      "beat": 3
+    },
+    {
+      "start": 30.705,
+      "end": 33.739,
+      "text": "Her last contact was a week ago.",
+      "beat": 3
+    },
+    {
+      "start": 33.809,
+      "end": 36.376,
+      "text": "Since then, that car has sold,",
+      "beat": 3
+    },
+    {
+      "start": 36.446,
+      "end": 42.28,
+      "text": "while a silver alternative has been\nsitting at the same dealership for 74",
+      "beat": 3
+    },
+    {
+      "start": 42.35,
+      "end": 46.64,
+      "text": "days. The dealership has an option worth\nshowing her.",
+      "beat": 3
+    },
+    {
+      "start": 46.71,
+      "end": 51.8,
+      "text": "But nobody has followed up to find out\nwhether she's still looking.",
+      "beat": 3
+    },
+    {
+      "start": 52.15,
+      "end": 55.035,
+      "text": "Nearly half of qualified leads are\nmishandled.",
+      "beat": 4
+    },
+    {
+      "start": 55.105,
+      "end": 57.8,
+      "text": "Most eventual buyers purchase within three\ndays.",
+      "beat": 4
+    },
+    {
+      "start": 58.15,
+      "end": 63.8,
+      "text": "Sales slip away when nobody connects the\nlead to the right offer in time.",
+      "beat": 5
+    },
+    {
+      "start": 64.15,
+      "end": 67.091,
+      "text": "SalesDesk is your AI enterprise sales\nanalyst.",
+      "beat": 6
+    },
+    {
+      "start": 67.161,
+      "end": 71.8,
+      "text": "It does that review overnight and prepares\nthe follow-ups for your team.",
+      "beat": 6
+    },
+    {
+      "start": 72.15,
+      "end": 76.614,
+      "text": "At 2 AM, it starts reviewing each store's\nleads and inventory.",
+      "beat": 7
+    },
+    {
+      "start": 76.684,
+      "end": 80.8,
+      "text": "Six stores run in parallel, in isolated\nsandboxes on Vultr.",
+      "beat": 7
+    },
+    {
+      "start": 81.15,
+      "end": 82.8,
+      "text": "Let's look at Sandy.",
+      "beat": 8
+    },
+    {
+      "start": 83.15,
+      "end": 88.905,
+      "text": "SalesDesk reviews its 375 open leads and\nflags 40 that need attention.",
+      "beat": 9
+    },
+    {
+      "start": 88.975,
+      "end": 92.43,
+      "text": "Twenty-five have gone at least three days\nwithout contact.",
+      "beat": 9
+    },
+    {
+      "start": 92.5,
+      "end": 95.557,
+      "text": "Others are waiting on a car that has sold,",
+      "beat": 9
+    },
+    {
+      "start": 95.627,
+      "end": 98.8,
+      "text": "or have an appointment that needs\nfollowing up.",
+      "beat": 9
+    },
+    {
+      "start": 99.15,
+      "end": 101.362,
+      "text": "It then checks the available inventory:",
+      "beat": 10
+    },
+    {
+      "start": 101.432,
+      "end": 103.64,
+      "text": "117 cars at Sandy",
+      "beat": 10
+    },
+    {
+      "start": 103.71,
+      "end": 106.8,
+      "text": "and more than sixteen hundred at nearby\nsister stores.",
+      "beat": 10
+    },
+    {
+      "start": 107.15,
+      "end": 111.416,
+      "text": "Each potential match is scored against\nwhat the customer asked for,",
+      "beat": 11
+    },
+    {
+      "start": 111.486,
+      "end": 114.698,
+      "text": "including the model, trim, budget and\nmileage.",
+      "beat": 11
+    },
+    {
+      "start": 114.768,
+      "end": 118.8,
+      "text": "Cars that have been in stock longer get\nextra priority.",
+      "beat": 11
+    },
+    {
+      "start": 119.15,
+      "end": 121.911,
+      "text": "Qwen, running on Vultr Serverless\nInference,",
+      "beat": 12
+    },
+    {
+      "start": 121.981,
+      "end": 125.313,
+      "text": "uses those checked results to write\nSandy's morning brief",
+      "beat": 12
+    },
+    {
+      "start": 125.383,
+      "end": 128.8,
+      "text": "and three follow-up drafts for its\npriority leads.",
+      "beat": 12
+    },
+    {
+      "start": 129.15,
+      "end": 132.343,
+      "text": "The recorded review finishes across all 24\nstores",
+      "beat": 13
+    },
+    {
+      "start": 132.413,
+      "end": 134.8,
+      "text": "in two minutes and seven seconds.",
+      "beat": 13
+    },
+    {
+      "start": 135.15,
+      "end": 136.8,
+      "text": "Here's Maria's result.",
+      "beat": 14
+    },
+    {
+      "start": 137.15,
+      "end": 142.005,
+      "text": "The silver RAV4 is the same model and trim\nshe originally asked about.",
+      "beat": 15
+    },
+    {
+      "start": 142.075,
+      "end": 147.8,
+      "text": "It scores 98 out of 100, with the colour\ndifference shown in the breakdown.",
+      "beat": 15
+    },
+    {
+      "start": 148.15,
+      "end": 150.989,
+      "text": "The manager can see her original enquiry,",
+      "beat": 16
+    },
+    {
+      "start": 151.059,
+      "end": 153.202,
+      "text": "when she was last contacted,",
+      "beat": 16
+    },
+    {
+      "start": 153.272,
+      "end": 157.8,
+      "text": "and when the blue car sold, all in the\nsame view.",
+      "beat": 16
+    },
+    {
+      "start": 158.15,
+      "end": 162.359,
+      "text": "Below that is a draft message mentioning\nthe available silver RAV4",
+      "beat": 17
+    },
+    {
+      "start": 162.429,
+      "end": 166.43,
+      "text": "and asking about her 2017 Honda CR-V\ntrade-in.",
+      "beat": 17
+    },
+    {
+      "start": 166.5,
+      "end": 169.337,
+      "text": "The salesperson has the context and a\nmessage",
+      "beat": 17
+    },
+    {
+      "start": 169.407,
+      "end": 171.8,
+      "text": "ready to review before contacting her.",
+      "beat": 17
+    },
+    {
+      "start": 172.15,
+      "end": 177.02,
+      "text": "By the morning, Sandy's manager has a\nranked queue of 40 follow-ups.",
+      "beat": 18
+    },
+    {
+      "start": 177.09,
+      "end": 180.973,
+      "text": "They can review individual drafts or\napprove the queue together,",
+      "beat": 18
+    },
+    {
+      "start": 181.043,
+      "end": 184.8,
+      "text": "then download the tasks and drafts for\ntheir salespeople.",
+      "beat": 18
+    },
+    {
+      "start": 185.15,
+      "end": 191.293,
+      "text": "Across the group, 1,007 at-risk leads have\nbeen matched to a car in stock.",
+      "beat": 19
+    },
+    {
+      "start": 191.363,
+      "end": 196.337,
+      "text": "The estimated gross associated with those\nmatches is about $3.4 million.",
+      "beat": 19
+    },
+    {
+      "start": 196.407,
+      "end": 200.8,
+      "text": "Managers can use that view to decide where\ntheir teams should focus.",
+      "beat": 19
+    },
+    {
+      "start": 201.15,
+      "end": 205.372,
+      "text": "The scheduler and analysis jobs run on a\nVultr VM.",
+      "beat": 20
+    },
+    {
+      "start": 205.442,
+      "end": 208.132,
+      "text": "Qwen runs on Vultr Serverless Inference,",
+      "beat": 20
+    },
+    {
+      "start": 208.202,
+      "end": 212.8,
+      "text": "and its output is validated before it\nreaches the approval queue.",
+      "beat": 20
+    },
+    {
+      "start": 213.15,
+      "end": 217.453,
+      "text": "SalesDesk gives your team a practical\nstarting point each morning:",
+      "beat": 21
+    },
+    {
+      "start": 217.523,
+      "end": 220.063,
+      "text": "which customers to follow up with,",
+      "beat": 21
+    },
+    {
+      "start": 220.133,
+      "end": 224.8,
+      "text": "which cars to offer, and a draft they can\nwork from.",
+      "beat": 21
+    },
+    {
+      "start": 225.15,
+      "end": 228.8,
+      "text": "SalesDesk. Your AI enterprise sales\nanalyst.",
+      "beat": 22
+    }
+  ]
+}
