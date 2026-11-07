@@ -1,0 +1,252 @@
+1
+00:00:00,150 --> 00:00:02,320
+Every sales team has the same leak.
+
+2
+00:00:02,390 --> 00:00:04,643
+Not bad products, not bad salespeople.
+
+3
+00:00:04,713 --> 00:00:07,800
+Leads that go quiet, and nobody follows up
+in time.
+
+4
+00:00:08,150 --> 00:00:12,139
+Take Maria. She wanted a blue RAV4 Hybrid
+nine days ago.
+
+5
+00:00:12,209 --> 00:00:14,497
+Her last contact was a week ago.
+
+6
+00:00:14,567 --> 00:00:15,682
+That car sold.
+
+7
+00:00:15,752 --> 00:00:19,800
+A silver alternative sat at the same
+dealership for 74 days.
+
+8
+00:00:20,150 --> 00:00:23,035
+Nearly half of qualified leads are
+mishandled.
+
+9
+00:00:23,105 --> 00:00:25,800
+Most eventual buyers purchase within three
+days.
+
+10
+00:00:26,150 --> 00:00:28,444
+Sales slip away when nobody connects
+
+11
+00:00:28,514 --> 00:00:31,800
+the lead to the right offer in time.
+
+12
+00:00:32,150 --> 00:00:35,091
+SalesDesk is your AI enterprise sales
+analyst.
+
+13
+00:00:35,161 --> 00:00:39,800
+It does that review overnight and prepares
+the follow-ups for your team.
+
+14
+00:00:40,150 --> 00:00:44,614
+At 2 AM, it starts reviewing each store's
+leads and inventory.
+
+15
+00:00:44,684 --> 00:00:48,800
+Six stores run in parallel, in isolated
+sandboxes on Vultr.
+
+16
+00:00:49,150 --> 00:00:50,800
+Let's look at Sandy.
+
+17
+00:00:51,150 --> 00:00:56,905
+SalesDesk reviews its 375 open leads and
+flags 40 that need attention.
+
+18
+00:00:56,975 --> 00:01:00,430
+Twenty-five have gone at least three days
+without contact.
+
+19
+00:01:00,500 --> 00:01:03,557
+Others are waiting on a car that has sold,
+
+20
+00:01:03,627 --> 00:01:06,800
+or have an appointment that needs
+following up.
+
+21
+00:01:07,150 --> 00:01:09,362
+It then checks the available inventory:
+
+22
+00:01:09,432 --> 00:01:11,640
+117 cars at Sandy
+
+23
+00:01:11,710 --> 00:01:14,800
+and more than sixteen hundred at nearby
+sister stores.
+
+24
+00:01:15,150 --> 00:01:19,416
+Each potential match is scored against
+what the customer asked for,
+
+25
+00:01:19,486 --> 00:01:22,698
+including the model, trim, budget and
+mileage.
+
+26
+00:01:22,768 --> 00:01:26,800
+Cars that have been in stock longer get
+extra priority.
+
+27
+00:01:27,150 --> 00:01:29,911
+Qwen, running on Vultr Serverless
+Inference,
+
+28
+00:01:29,981 --> 00:01:33,313
+uses those checked results to write
+Sandy's morning brief
+
+29
+00:01:33,383 --> 00:01:36,800
+and three follow-up drafts for its
+priority leads.
+
+30
+00:01:37,150 --> 00:01:40,343
+The recorded review finishes across all 24
+stores
+
+31
+00:01:40,413 --> 00:01:42,800
+in two minutes and seven seconds.
+
+32
+00:01:43,150 --> 00:01:44,800
+Here's Maria's result.
+
+33
+00:01:45,150 --> 00:01:50,005
+The silver RAV4 is the same model and trim
+she originally asked about.
+
+34
+00:01:50,075 --> 00:01:55,800
+It scores 98 out of 100, with the colour
+difference shown in the breakdown.
+
+35
+00:01:56,150 --> 00:01:58,989
+The manager can see her original enquiry,
+
+36
+00:01:59,059 --> 00:02:01,202
+when she was last contacted,
+
+37
+00:02:01,272 --> 00:02:05,800
+and when the blue car sold, all in the
+same view.
+
+38
+00:02:06,150 --> 00:02:10,359
+Below that is a draft message mentioning
+the available silver RAV4
+
+39
+00:02:10,429 --> 00:02:14,430
+and asking about her 2017 Honda CR-V
+trade-in.
+
+40
+00:02:14,500 --> 00:02:17,337
+The salesperson has the context and a
+message
+
+41
+00:02:17,407 --> 00:02:19,800
+ready to review before contacting her.
+
+42
+00:02:20,150 --> 00:02:25,020
+By the morning, Sandy's manager has a
+ranked queue of 40 follow-ups.
+
+43
+00:02:25,090 --> 00:02:28,973
+They can review individual drafts or
+approve the queue together,
+
+44
+00:02:29,043 --> 00:02:32,800
+then download the tasks and drafts for
+their salespeople.
+
+45
+00:02:33,150 --> 00:02:39,293
+Across the group, 1,007 at-risk leads have
+been matched to a car in stock.
+
+46
+00:02:39,363 --> 00:02:44,337
+The estimated gross associated with those
+matches is about $3.4 million.
+
+47
+00:02:44,407 --> 00:02:48,800
+Managers can use that view to decide where
+their teams should focus.
+
+48
+00:02:49,150 --> 00:02:53,372
+The scheduler and analysis jobs run on a
+Vultr VM.
+
+49
+00:02:53,442 --> 00:02:56,132
+Qwen runs on Vultr Serverless Inference,
+
+50
+00:02:56,202 --> 00:03:00,800
+and its output is validated before it
+reaches the approval queue.
+
+51
+00:03:01,150 --> 00:03:05,453
+SalesDesk gives your team a practical
+starting point each morning:
+
+52
+00:03:05,523 --> 00:03:08,063
+which customers to follow up with,
+
+53
+00:03:08,133 --> 00:03:12,800
+which cars to offer, and a draft they can
+work from.
+
+54
+00:03:13,150 --> 00:03:16,800
+SalesDesk. Your AI enterprise sales
+analyst.

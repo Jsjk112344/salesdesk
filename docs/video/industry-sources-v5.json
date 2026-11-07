@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-07",
+  "source": {
+    "publisher": "Foureyes",
+    "title": "2026 Automotive Dealer Benchmarks Report",
+    "published": "2026-04-22",
+    "url": "https://www.foureyes.io/blog/2026-automotive-dealer-benchmarks-report",
+    "data_start": "2025-01-01",
+    "data_end": "2025-12-31",
+    "website_count_min": 22900
+  },
+  "claims": [
+    {
+      "id": "mishandled_qualified_leads",
+      "value_percent": 42.7,
+      "scope": "Qualified dealership website leads in the benchmark",
+      "verbatim_excerpt": "42.7% of qualified leads were mishandled."
+    },
+    {
+      "id": "purchase_within_three_days",
+      "value_percent": 61.2,
+      "scope": "Sales leads that eventually purchased from dealers, measured from initial website form, chat or call",
+      "verbatim_excerpt": "61.2% close within just three days of their initial website inquiry"
+    }
+  ],
+  "separation": "Industry benchmark is real, dated research; the Maria/dealer-group app is labelled synthetic sample data. No lost-sales-dollar extrapolation, savings guarantee, or inference about Maria call count."
+}

@@ -195,3 +195,14 @@ sources. No vendor connection, endorsement, integration or affiliation is claime
 - Playwright (Apache-2.0), Chromium and FFmpeg render and record the public app and
   assemble the silent edit. FFmpeg with libass renders captions derived from the SRT.
   These tools do not supply stock footage, artificial UI values or customer data.
+
+## Video v5 industry benchmark — checked 2026-11-07
+
+- [Foureyes, 2026 Automotive Dealer Benchmarks Report](https://www.foureyes.io/blog/2026-automotive-dealer-benchmarks-report),
+  published 2026-04-22, reporting 2025 dealership website activity. The original
+  SalesDesk proof card cites the qualified-lead mishandling rate and conditional
+  three-day purchase rate. Dates/scopes and short verbatim evidence excerpts are
+  recorded in `docs/video/industry-sources-v5.json`; narration uses no spoken source
+  attribution. No report graphics, vendor code or customer records are copied.
+  No vendor endorsement, integration, industry-wide loss or SalesDesk recovery
+  performance is claimed. See `docs/video/SOURCES-v5.md`.

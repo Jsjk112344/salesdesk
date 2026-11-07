@@ -1,36 +1,40 @@
-# SalesDesk v4 recording hand-off
+# SalesDesk v5 recording hand-off
 
-The current cut follows the approved conversational rewrite: **3:24 (204 seconds)**,
-1920×1080, 30 fps, H.264, silent. The earlier v3 cuts remain unchanged.
+Current cut: **3:17 (197 seconds)**, H.264, 1920×1080, 30 fps, silent.
 
-- [Captioned review](salesdesk-v4.mp4) · [Clean video](salesdesk-v4-nosubs.mp4)
-- [Contact sheet](_review/v4-contact.png) · [Scene stops](video-plan-v4.md)
-- [Clean VO script](narration-v4.txt) · [SRT captions](subtitles-v4.srt)
-- [Narration/cue timeline](timeline-v4.json) · [Shot sources](shot-manifest-v4.json)
-- [Source review facts](recording-facts-v3.json) · [Export checks](v4-export-check.json)
-- [Earlier v3 hand-off](RECORDING-v3.md)
+- [Captioned video](salesdesk-v5.mp4) · [Clean video](salesdesk-v5-nosubs.mp4)
+- [Contact sheet](_review/v5-contact.png) · [Opening and scene stops](video-plan-v5.md)
+- [Narration](narration-v5.txt) · [SRT](subtitles-v5.srt) · [Cue timeline](timeline-v5.json)
+- [Industry source notes](SOURCES-v5.md) · [Dated evidence](industry-sources-v5.json)
+- [Shot sources](shot-manifest-v5.json) · [Export checks](v5-export-check.json)
+- [Previous v4 hand-off](RECORDING-v4.md)
 
-## Voiceover
+## Read and alignment
 
-Record the approved script below as one natural read. The cut has breathing space
-at paragraph boundaries. Maria is explained throughout 1:50–2:27: match breakdown,
-contact timeline and draft. There is no long silent SMS hold in this version.
+The opening stops are **0:08 / 0:20 / 0:26 / 0:32**: universal hook, Maria,
+industry proof, then thesis. Start the enterprise introduction at 0:32. The opening
+is brisker; use a conversational pace for the retained walkthrough. The exact
+spoken script is below. Dates and publisher names on the stat card are not spoken.
 
-Import `salesdesk-v4-nosubs.mp4`, your voice recording and `subtitles-v4.srt` into
-your editor. The 55 cues are a paced guide, not alignment to recorded audio.
-Adjust the cues and holds to the actual delivery before the final audio export.
-Captions stay bottom centre, below Maria's SMS. Chapter pills stay top left.
-No music, sound effects or synthesized voice are included.
+The two industry figures apply to qualified dealer website leads and, for the
+purchase window, only those that eventually purchased. Maria's number of calls is
+unknown; her verified last contact was seven days ago. No extra call history,
+industry lost-dollar figure, customer send or proven recovery is invented.
+
+The 54 captions are paced guides, not alignment to recorded audio. Record the VO,
+then match the SRT to the actual delivery before the final audio export. Maria's
+match, timeline and draft are explained throughout 1:43–2:20; there is no long
+silent SMS hold. Captions sit below the message. Camera/cursor remain settled.
 
 ## Clean script
 
-Nine days ago, Maria asked about a blue Toyota RAV4 Hybrid. The dealership last contacted her seven days ago. Since then, that car has sold.
+Every sales team has the same leak. Not bad products, not bad salespeople. Leads that go quiet, and nobody follows up in time.
 
-There's still a silver RAV4 Hybrid available at the same dealership. It's been sitting there for 74 days, but nobody has followed up with Maria about it.
+Take Maria. She wanted a blue RAV4 Hybrid nine days ago. Her last contact was a week ago. That car sold. A silver alternative sat at the same dealership for 74 days.
 
-Across 24 stores, there are over a thousand leads that need attention.
+Nearly half of qualified leads are mishandled. Most eventual buyers purchase within three days.
 
-A manager could work through those leads, check which cars are still available, and look for alternatives. But that means bringing together information from several stores, every morning.
+Sales slip away when nobody connects the lead to the right offer in time.
 
 SalesDesk is your AI enterprise sales analyst. It does that review overnight and prepares the follow-ups for your team.
 
@@ -69,28 +73,29 @@ SalesDesk. Your AI enterprise sales analyst.
 ## Rebuild
 
 ```bash
-uv run python -m scripts.prepare_video_v4
-uv run python -m scripts.render_video_v4
-uv run python -m scripts.assemble_video_v4
+uv run python -m scripts.prepare_video_v5
+uv run python -m scripts.render_video_v5
+uv run python -m scripts.assemble_video_v5
 ```
 
-These commands use existing accepted public footage, original cards and the
-approved script. They make no model calls and schedule no review. The fixed
-camera and settled cursor from the v3 polish are retained. Only the fan-out motion
-graphic is shortened; app footage stays at normal speed. Holds use actual frames.
+These commands use existing accepted v3/v4 source footage and original graphics.
+No new review, inference, app deployment or customer contact is triggered. Original
+execution evidence remains in `recording-facts-v3.json`; its 127.493-second review
+is shortened explicitly by the retained “2 min 7 sec” card. It is separate from
+this edit's running time. Industry evidence is separate from the synthetic sample.
 
 ## Final audio and submission
 
-After aligning the voice and captions, export the final cut with clear audio.
-If the recorded voice already matches these timings, you can add it to the captioned
-cut without re-encoding its video:
+The exports contain no recorded/synthesised voice, music or effects. If the voice
+recording already matches this guide, it can be added without re-encoding video:
 
 ```bash
-ffmpeg -i docs/video/salesdesk-v4.mp4 -i voiceover.wav \
+ffmpeg -i docs/video/salesdesk-v5.mp4 -i voiceover.wav \
   -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k \
-  -af apad -t 204 -movflags +faststart SalesDesk-final.mp4
+  -af apad -t 197 -movflags +faststart SalesDesk-final.mp4
 ```
 
-Check the actual signed-in form's limits, upload video/slides and submit by the
-owner's **Sunday November 8, 2026, 16:00 ET target**. Save the receipt. No upload,
-submission or recorded voice is claimed here.
+Otherwise align the voice and captions with the clean video in your editor first.
+Check the actual signed-in submission form, upload the final video/slides, and
+submit by the owner's **Sunday November 8, 2026, 16:00 ET target**. No upload,
+submission or receipt is claimed here. Prior v4/v3 files remain available.
