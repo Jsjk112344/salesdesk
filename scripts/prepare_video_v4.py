@@ -98,13 +98,28 @@ def stamp(seconds):
 
 
 def weight(text):
-    # Give spoken numbers and sentence endings enough room in the guide track.
-    return sum(
-        max(1, len(word) / 7)
-        + (0.8 if re.search(r"[.!?]$", word) else 0)
-        + (0.3 if re.search(r"[,;:]$", word) else 0)
-        for word in text.split()
-    )
+    # Numerals such as 117 take several spoken words, even though they occupy
+    # only one token in the written script. Do not rush those caption beats.
+    spoken_units = {
+        "375": 5,
+        "117": 4,
+        "1,007": 4,
+        "24": 2,
+        "74": 2,
+        "98": 2,
+        "100": 2,
+        "2017": 2,
+        "$3.4": 3,
+        "RAV4": 2,
+        "CR-V": 3,
+    }
+    total = 0
+    for word in text.split():
+        core = word.strip(",.;:!?")
+        total += spoken_units.get(core, max(1, len(word) / 7))
+        total += 0.8 if re.search(r"[.!?]$", word) else 0
+        total += 0.3 if re.search(r"[,;:]$", word) else 0
+    return total
 
 
 def phrases(text):

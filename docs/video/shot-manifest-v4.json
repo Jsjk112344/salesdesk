@@ -1,0 +1,233 @@
+{
+  "duration_seconds": 204,
+  "fps": 30,
+  "shots": [
+    {
+      "shot": "01a",
+      "label": "Maria's enquiry",
+      "start": 0,
+      "end": 3,
+      "source": "docs/video/cards-v3/opening.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "01b",
+      "label": "Original interest and available alternative",
+      "start": 3,
+      "end": 22,
+      "source": "docs/video/scenes/v3-maria.mp4",
+      "source_options": {
+        "offset": 2
+      }
+    },
+    {
+      "shot": "02",
+      "label": "Group scale",
+      "start": 22,
+      "end": 27,
+      "source": "docs/video/cards-v3/scale.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "03",
+      "label": "The manager's morning review",
+      "start": 27,
+      "end": 39,
+      "source": "docs/video/cards-v4/manual.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "04",
+      "label": "SalesDesk introduction",
+      "start": 39,
+      "end": 47,
+      "source": "docs/video/cards-v4/title.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "05",
+      "label": "Parallel review explainer",
+      "start": 47,
+      "end": 56,
+      "source": "docs/video/cards-v3/fanout.mp4",
+      "source_options": {
+        "chapter": 1,
+        "tempo": 0.75
+      }
+    },
+    {
+      "shot": "06",
+      "label": "Real Group mid-run",
+      "start": 56,
+      "end": 58,
+      "source": "docs/video/scenes/v3-run.mp4",
+      "source_options": {
+        "offset": 8,
+        "chapter": 1,
+        "chapter_offset": 9
+      }
+    },
+    {
+      "shot": "07",
+      "label": "Sandy lead risk",
+      "start": 58,
+      "end": 74,
+      "source": "docs/video/scenes/v3-run.mp4",
+      "source_options": {
+        "offset": 29,
+        "chapter": 2
+      }
+    },
+    {
+      "shot": "08",
+      "label": "Local and sister-store inventory",
+      "start": 74,
+      "end": 82,
+      "source": "docs/video/scenes/v3-run.mp4",
+      "source_options": {
+        "offset": 41,
+        "chapter": 3
+      }
+    },
+    {
+      "shot": "09",
+      "label": "Match scoring",
+      "start": 82,
+      "end": 94,
+      "source": "docs/video/stills/v3-match-score.png",
+      "source_options": {
+        "still": true,
+        "chapter": 3,
+        "chapter_offset": 8
+      }
+    },
+    {
+      "shot": "10",
+      "label": "Qwen brief and three drafts",
+      "start": 94,
+      "end": 104,
+      "source": "docs/video/scenes/v3-run.mp4",
+      "source_options": {
+        "offset": 60,
+        "chapter": 4
+      }
+    },
+    {
+      "shot": "11",
+      "label": "Recorded run completion",
+      "start": 104,
+      "end": 110,
+      "source": "docs/video/cards-v3/skip.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "12",
+      "label": "Maria result introduction",
+      "start": 110,
+      "end": 112,
+      "source": "docs/video/scenes/v3-maria.mp4",
+      "source_options": {
+        "offset": 2
+      }
+    },
+    {
+      "shot": "13",
+      "label": "Maria model, trim, score and colour",
+      "start": 112,
+      "end": 123,
+      "source": "docs/video/stills/v3-match-score.png",
+      "source_options": {
+        "still": true
+      }
+    },
+    {
+      "shot": "14",
+      "label": "Maria enquiry and contact timeline",
+      "start": 123,
+      "end": 133,
+      "source": "docs/video/scenes/v3-maria.mp4",
+      "source_options": {
+        "offset": 2
+      }
+    },
+    {
+      "shot": "15",
+      "label": "Maria draft and trade-in explanation",
+      "start": 133,
+      "end": 147,
+      "source": "docs/video/scenes/v3-maria.mp4",
+      "source_options": {
+        "offset": 10
+      }
+    },
+    {
+      "shot": "16",
+      "label": "Ranked manager queue",
+      "start": 147,
+      "end": 153,
+      "source": "docs/video/stills/v3-approve-queue.png",
+      "source_options": {
+        "still": true
+      }
+    },
+    {
+      "shot": "17",
+      "label": "Actual approval click",
+      "start": 153,
+      "end": 156,
+      "source": "docs/video/scenes/v3-approve.mp4",
+      "source_options": {
+        "offset": 0.5
+      }
+    },
+    {
+      "shot": "18",
+      "label": "Ready tasks and draft downloads",
+      "start": 156,
+      "end": 160,
+      "source": "docs/video/scenes/v3-ready.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "19",
+      "label": "Matched lead total",
+      "start": 160,
+      "end": 166,
+      "source": "docs/video/cards-v4/matched.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "20",
+      "label": "Estimated gross associated with matches",
+      "start": 166,
+      "end": 176,
+      "source": "docs/video/cards-v4/gross.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "21",
+      "label": "Vultr and validation",
+      "start": 176,
+      "end": 188,
+      "source": "docs/video/cards-v3/architecture.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "22",
+      "label": "Practical morning workflow",
+      "start": 188,
+      "end": 200,
+      "source": "docs/video/cards-v4/workflow.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "23",
+      "label": "Enterprise analyst close",
+      "start": 200,
+      "end": 204,
+      "source": "docs/video/cards-v4/end.mp4",
+      "source_options": {}
+    }
+  ],
+  "provenance": "Reuses accepted v3 public footage and original editorial cards; no new review, inference, customer send or UI manipulation."
+}

@@ -1,28 +1,28 @@
 1
-00:00:00,200 --> 00:00:04,549
+00:00:00,200 --> 00:00:04,750
 Nine days ago, Maria asked about a blue
 Toyota RAV4 Hybrid.
 
 2
-00:00:04,639 --> 00:00:08,058
+00:00:04,840 --> 00:00:08,144
 The dealership last contacted her seven
 days ago.
 
 3
-00:00:08,148 --> 00:00:10,700
+00:00:08,234 --> 00:00:10,700
 Since then, that car has sold.
 
 4
-00:00:11,200 --> 00:00:15,569
+00:00:11,200 --> 00:00:15,618
 There's still a silver RAV4 Hybrid
 available at the same dealership.
 
 5
-00:00:15,659 --> 00:00:18,178
+00:00:15,708 --> 00:00:18,393
 It's been sitting there for 74 days,
 
 6
-00:00:18,268 --> 00:00:21,700
+00:00:18,483 --> 00:00:21,700
 but nobody has followed up with Maria
 about it.
 
@@ -77,34 +77,34 @@ sandboxes on Vultr.
 Let's look at Sandy.
 
 18
-00:00:58,200 --> 00:01:02,988
+00:00:58,200 --> 00:01:03,877
 SalesDesk reviews its 375 open leads and
 flags 40 that need attention.
 
 19
-00:01:03,078 --> 00:01:06,803
+00:01:03,967 --> 00:01:07,375
 Twenty-five have gone at least three days
 without contact.
 
 20
-00:01:06,893 --> 00:01:10,188
+00:01:07,465 --> 00:01:10,480
 Others are waiting on a car that has sold,
 
 21
-00:01:10,278 --> 00:01:13,700
+00:01:10,570 --> 00:01:13,700
 or have an appointment that needs
 following up.
 
 22
-00:01:14,200 --> 00:01:16,667
+00:01:14,200 --> 00:01:16,356
 It then checks the available inventory:
 
 23
-00:01:16,757 --> 00:01:18,164
+00:01:16,446 --> 00:01:18,598
 117 cars at Sandy
 
 24
-00:01:18,254 --> 00:01:21,700
+00:01:18,688 --> 00:01:21,700
 and more than sixteen hundred at nearby
 sister stores.
 
@@ -139,12 +139,12 @@ and three follow-up drafts for its
 priority leads.
 
 31
-00:01:44,200 --> 00:01:47,144
+00:01:44,200 --> 00:01:47,296
 The recorded review finishes across all 24
 stores
 
 32
-00:01:47,234 --> 00:01:49,700
+00:01:47,386 --> 00:01:49,700
 in two minutes and seven seconds.
 
 33
@@ -152,12 +152,12 @@ in two minutes and seven seconds.
 Here's Maria's result.
 
 34
-00:01:52,200 --> 00:01:57,107
+00:01:52,200 --> 00:01:56,977
 The silver RAV4 is the same model and trim
 she originally asked about.
 
 35
-00:01:57,197 --> 00:02:02,700
+00:01:57,067 --> 00:02:02,700
 It scores 98 out of 100, with the colour
 difference shown in the breakdown.
 
@@ -175,22 +175,22 @@ and when the blue car sold, all in the
 same view.
 
 39
-00:02:13,200 --> 00:02:17,434
+00:02:13,200 --> 00:02:17,343
 Below that is a draft message mentioning
 the available silver RAV4
 
 40
-00:02:17,524 --> 00:02:20,809
+00:02:17,433 --> 00:02:21,371
 and asking about her 2017 Honda CR-V
 trade-in.
 
 41
-00:02:20,899 --> 00:02:23,997
+00:02:21,461 --> 00:02:24,254
 The salesperson has the context and a
 message
 
 42
-00:02:24,087 --> 00:02:26,700
+00:02:24,344 --> 00:02:26,700
 ready to review before contacting her.
 
 43
@@ -209,17 +209,17 @@ then download the tasks and drafts for
 their salespeople.
 
 46
-00:02:40,200 --> 00:02:45,884
+00:02:40,200 --> 00:02:46,268
 Across the group, 1,007 at-risk leads have
 been matched to a car in stock.
 
 47
-00:02:45,974 --> 00:02:50,738
+00:02:46,358 --> 00:02:51,271
 The estimated gross associated with those
 matches is about $3.4 million.
 
 48
-00:02:50,828 --> 00:02:55,700
+00:02:51,361 --> 00:02:55,700
 Managers can use that view to decide where
 their teams should focus.
 

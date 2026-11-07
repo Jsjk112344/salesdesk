@@ -177,36 +177,36 @@
   "cues": [
     {
       "start": 0.2,
-      "end": 4.549,
+      "end": 4.75,
       "text": "Nine days ago, Maria asked about a blue\nToyota RAV4 Hybrid.",
       "beat": 1
     },
     {
-      "start": 4.639,
-      "end": 8.058,
+      "start": 4.84,
+      "end": 8.144,
       "text": "The dealership last contacted her seven\ndays ago.",
       "beat": 1
     },
     {
-      "start": 8.148,
+      "start": 8.234,
       "end": 10.7,
       "text": "Since then, that car has sold.",
       "beat": 1
     },
     {
       "start": 11.2,
-      "end": 15.569,
+      "end": 15.618,
       "text": "There's still a silver RAV4 Hybrid\navailable at the same dealership.",
       "beat": 2
     },
     {
-      "start": 15.659,
-      "end": 18.178,
+      "start": 15.708,
+      "end": 18.393,
       "text": "It's been sitting there for 74 days,",
       "beat": 2
     },
     {
-      "start": 18.268,
+      "start": 18.483,
       "end": 21.7,
       "text": "but nobody has followed up with Maria\nabout it.",
       "beat": 2
@@ -279,42 +279,42 @@
     },
     {
       "start": 58.2,
-      "end": 62.988,
+      "end": 63.877,
       "text": "SalesDesk reviews its 375 open leads and\nflags 40 that need attention.",
       "beat": 8
     },
     {
-      "start": 63.078,
-      "end": 66.803,
+      "start": 63.967,
+      "end": 67.375,
       "text": "Twenty-five have gone at least three days\nwithout contact.",
       "beat": 8
     },
     {
-      "start": 66.893,
-      "end": 70.188,
+      "start": 67.465,
+      "end": 70.48,
       "text": "Others are waiting on a car that has sold,",
       "beat": 8
     },
     {
-      "start": 70.278,
+      "start": 70.57,
       "end": 73.7,
       "text": "or have an appointment that needs\nfollowing up.",
       "beat": 8
     },
     {
       "start": 74.2,
-      "end": 76.667,
+      "end": 76.356,
       "text": "It then checks the available inventory:",
       "beat": 9
     },
     {
-      "start": 76.757,
-      "end": 78.164,
+      "start": 76.446,
+      "end": 78.598,
       "text": "117 cars at Sandy",
       "beat": 9
     },
     {
-      "start": 78.254,
+      "start": 78.688,
       "end": 81.7,
       "text": "and more than sixteen hundred at nearby\nsister stores.",
       "beat": 9
@@ -357,12 +357,12 @@
     },
     {
       "start": 104.2,
-      "end": 107.144,
+      "end": 107.296,
       "text": "The recorded review finishes across all 24\nstores",
       "beat": 12
     },
     {
-      "start": 107.234,
+      "start": 107.386,
       "end": 109.7,
       "text": "in two minutes and seven seconds.",
       "beat": 12
@@ -375,12 +375,12 @@
     },
     {
       "start": 112.2,
-      "end": 117.107,
+      "end": 116.977,
       "text": "The silver RAV4 is the same model and trim\nshe originally asked about.",
       "beat": 14
     },
     {
-      "start": 117.197,
+      "start": 117.067,
       "end": 122.7,
       "text": "It scores 98 out of 100, with the colour\ndifference shown in the breakdown.",
       "beat": 14
@@ -405,24 +405,24 @@
     },
     {
       "start": 133.2,
-      "end": 137.434,
+      "end": 137.343,
       "text": "Below that is a draft message mentioning\nthe available silver RAV4",
       "beat": 16
     },
     {
-      "start": 137.524,
-      "end": 140.809,
+      "start": 137.433,
+      "end": 141.371,
       "text": "and asking about her 2017 Honda CR-V\ntrade-in.",
       "beat": 16
     },
     {
-      "start": 140.899,
-      "end": 143.997,
+      "start": 141.461,
+      "end": 144.254,
       "text": "The salesperson has the context and a\nmessage",
       "beat": 16
     },
     {
-      "start": 144.087,
+      "start": 144.344,
       "end": 146.7,
       "text": "ready to review before contacting her.",
       "beat": 16
@@ -447,18 +447,18 @@
     },
     {
       "start": 160.2,
-      "end": 165.884,
+      "end": 166.268,
       "text": "Across the group, 1,007 at-risk leads have\nbeen matched to a car in stock.",
       "beat": 18
     },
     {
-      "start": 165.974,
-      "end": 170.738,
+      "start": 166.358,
+      "end": 171.271,
       "text": "The estimated gross associated with those\nmatches is about $3.4 million.",
       "beat": 18
     },
     {
-      "start": 170.828,
+      "start": 171.361,
       "end": 175.7,
       "text": "Managers can use that view to decide where\ntheir teams should focus.",
       "beat": 18

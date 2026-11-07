@@ -1,10 +1,18 @@
 # SalesDesk video artifacts
 
-## Current: v3
+## Current: v4
+
+- [Captioned 3:24 cut](salesdesk-v4.mp4) · [clean cut](salesdesk-v4-nosubs.mp4).
+- [Contact sheet](_review/v4-contact.png) · [script and scene stops](video-plan-v4.md).
+- [Approved narration](narration-v4.txt) · [guide captions](subtitles-v4.srt) · [timeline](timeline-v4.json).
+- [Shot/source manifest](shot-manifest-v4.json) · [export checks](v4-export-check.json).
+- [Current hand-off](RECORDING.md); earlier v3 files and source takes are preserved.
+
+## Previous: v3
 
 - [Captioned 2:45 cut](salesdesk-v3.mp4) · [clean cut](salesdesk-v3-nosubs.mp4).
 - [Contact sheet](_review/v3-contact.png) · [review and before/after screens](REVIEW-v3.md).
-- [Hand-off](RECORDING.md) · [maintained plan](video-plan-v2.md) · [clean VO](narration-v2.txt) · [captions](subtitles-v2.srt).
+- [Hand-off](RECORDING-v3.md) · [maintained plan](video-plan-v2.md) · [clean VO](narration-v2.txt) · [captions](subtitles-v2.srt).
 - [Public recording facts](recording-facts-v3.json) · [scene manifest](scene-manifest-v3.json) · [export checks](v3-export-check.json).
 - Native public footage in `scenes/v3-*.mp4`, 1.5× stills in `stills/v3-*.png`.
 - Motion graphics in `card-v3-*.html` and `cards-v3/`, including the separate fan-out explainer.

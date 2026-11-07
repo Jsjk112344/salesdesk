@@ -3,11 +3,12 @@
 Product name: **SalesDesk** (renamed from ProofDesk on 2026-11-05). Existing operational
 identifiers and dated historical entries retain their original names.
 
-Current checkpoint: **Video v3 is prepared; compact public UI and whole-frame footage verified.**
-Both silent exports are **165.000 s**, 1080p/30fps. Final public run: **127.493 s**,
-25 accepted Qwen replays and **$0 new inference usage**. See `docs/video/REVIEW-v3.md`,
-`RECORDING.md` and `_review/v3-contact.png`. Owner records VO, finishes the edit,
-uploads and submits by Sunday Nov 8, 16:00 ET. No receipt exists.
+Current checkpoint: **Conversational video v4 is prepared at 3:24.**
+The approved 472-word script has 55 guide caption cues and matching scene stops.
+Both silent exports are 204.000 s, 1080p/30fps. See `docs/video/REVIEW-v4.md`,
+`video-plan-v4.md` and `_review/v4-contact.png`. Original public execution evidence
+is unchanged; no new review or inference was needed. Owner records VO, aligns the
+final captions/audio, uploads and submits. No receipt exists.
 
 Public URL: https://salesdesk.149.28.51.139.sslip.io
 
@@ -1349,3 +1350,30 @@ allowing untrusted code. Select and evaluate Vultr models with an authorized cal
   media, subtitle agreement, Ruff/format and repository checks passed.
 - This is a video-asset revision; no app redeploy or backend/model changes. Owner
   should use the updated enterprise line when recording the VO.
+
+## Conversational video v4 retiming (2026-11-07 ET)
+
+- The owner-approved 472-word rewrite is preserved verbatim in `narration-v4.txt`.
+  Rebuilt the edit at **204.000 seconds (3:24)** with paragraph breathing space
+  rather than compressing the read into the previous 2:45 cut. V3 remains preserved.
+- Replaced the old thesis/promise slogans with the manager's review steps and a
+  practical morning workflow. Enterprise analyst branding remains. Numbers retain
+  their slide/count-up treatment with factual labels matching the new explanation.
+- Maria runs 1:50–2:27, with model/trim/98/colour at 1:52–2:03, timeline at
+  2:03–2:13 and SMS/trade-in at 2:13–2:27. The earlier silent reading gap is gone.
+  Camera stays locked and cursor parked; captions sit below the actual SMS.
+- Queue/approval/Ready now follow the spoken order at 2:27–2:40. Matched-lead and
+  gross cards change at 2:40 / 2:46; architecture starts at 2:56. URLs stay visible
+  across the final 16 seconds. Scene stops and source offsets are in the v4 plan
+  and shot manifest; 55 guide cues match every approved spoken word.
+- Both exports passed H.264, 1920×1080, 30fps, 6,120 frames, exact 204-second and
+  silent-stream checks. Caption limits/non-overlap, contiguous shot spans, scene
+  bindings, Ruff/format, repository links and whitespace passed. Contact sheet is
+  `docs/video/_review/v4-contact.png`; timing checks are `v4-timing-check.json`.
+- Reused accepted v3 public footage and original editorial assets. Only the fan-out
+  graphic changes tempo; app footage remains normal speed. No new review,
+  inference, customer contact or app deployment; source runtime/cost evidence stays
+  unchanged (127.493 seconds, 25 accepted Qwen replays, $0 new inference usage).
+- No recorded VO was supplied: these are paced guide cues, not audio-aligned cues.
+  Owner records the approved read, aligns final captions/audio and uploads/submits
+  by the supplied Sunday Nov 8, 16:00 ET target. No submission or receipt claimed.

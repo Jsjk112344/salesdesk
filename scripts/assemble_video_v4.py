@@ -229,7 +229,7 @@ def review():
             "-i",
             str(WORK / "review-%02d.png"),
             "-vf",
-            f"tile=4x5:nb_frames={len(selected)}:padding=8:margin=8:color=0x142e34",
+            f"tile=4x{(len(selected) + 3) // 4}:nb_frames={len(selected)}:padding=8:margin=8:color=0x142e34",
             "-frames:v",
             "1",
             str(VIDEO / "_review/v4-contact.png"),

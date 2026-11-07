@@ -1,0 +1,37 @@
+{
+  "duration_seconds": 204,
+  "approved_script_word_count": 472,
+  "caption_cues": 55,
+  "script_and_srt_words_match": true,
+  "caption_lines_max": 2,
+  "caption_line_width_max": 42,
+  "minimum_caption_seconds": 1.5,
+  "max_caption_characters_per_second": 18.88,
+  "cue_overlap": false,
+  "shots_contiguous": true,
+  "maria_spoken_sections": {
+    "match": [
+      112,
+      123
+    ],
+    "timeline": [
+      123,
+      133
+    ],
+    "draft": [
+      133,
+      147
+    ]
+  },
+  "approval_motion": [
+    153,
+    156
+  ],
+  "ready_downloads": [
+    156,
+    160
+  ],
+  "caption_basis": "Paced guide; no recorded VO supplied. Align to the actual voice before final audio export.",
+  "new_review_or_inference": false,
+  "number_timing": "Cue weighting accounts for spoken forms of 375, 117, 1,007, 98, 100, 2017, RAV4 and CR-V."
+}
