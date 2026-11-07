@@ -1,0 +1,41 @@
+Nine days ago, Maria asked about a blue Toyota RAV4 Hybrid. The dealership last contacted her seven days ago. Since then, that car has sold.
+
+There's still a silver RAV4 Hybrid available at the same dealership. It's been sitting there for 74 days, but nobody has followed up with Maria about it.
+
+Across 24 stores, there are over a thousand leads that need attention.
+
+A manager could work through those leads, check which cars are still available, and look for alternatives. But that means bringing together information from several stores, every morning.
+
+SalesDesk is your AI enterprise sales analyst. It does that review overnight and prepares the follow-ups for your team.
+
+At 2 AM, it starts reviewing each store's leads and inventory. Six stores run in parallel, in isolated sandboxes on Vultr.
+
+Let's look at Sandy.
+
+SalesDesk reviews its 375 open leads and flags 40 that need attention. Twenty-five have gone at least three days without contact. Others are waiting on a car that has sold, or have an appointment that needs following up.
+
+It then checks the available inventory: 117 cars at Sandy and more than sixteen hundred at nearby sister stores.
+
+Each potential match is scored against what the customer asked for, including the model, trim, budget and mileage. Cars that have been in stock longer get extra priority.
+
+Qwen, running on Vultr Serverless Inference, uses those checked results to write Sandy's morning brief and three follow-up drafts for its priority leads.
+
+The recorded review finishes across all 24 stores in two minutes and seven seconds.
+
+Here's Maria's result.
+
+The silver RAV4 is the same model and trim she originally asked about. It scores 98 out of 100, with the colour difference shown in the breakdown.
+
+The manager can see her original enquiry, when she was last contacted, and when the blue car sold, all in the same view.
+
+Below that is a draft message mentioning the available silver RAV4 and asking about her 2017 Honda CR-V trade-in. The salesperson has the context and a message ready to review before contacting her.
+
+By the morning, Sandy's manager has a ranked queue of 40 follow-ups. They can review individual drafts or approve the queue together, then download the tasks and drafts for their salespeople.
+
+Across the group, 1,007 at-risk leads have been matched to a car in stock. The estimated gross associated with those matches is about $3.4 million. Managers can use that view to decide where their teams should focus.
+
+The scheduler and analysis jobs run on a Vultr VM. Qwen runs on Vultr Serverless Inference, and its output is validated before it reaches the approval queue.
+
+SalesDesk gives your team a practical starting point each morning: which customers to follow up with, which cars to offer, and a draft they can work from.
+
+SalesDesk. Your AI enterprise sales analyst.
