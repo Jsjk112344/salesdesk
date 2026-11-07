@@ -1,0 +1,241 @@
+{
+  "duration_seconds": 229,
+  "fps": 30,
+  "shots": [
+    {
+      "shot": "01-hook",
+      "label": "Universal follow-up hook",
+      "start": 0,
+      "end": 8,
+      "source": "docs/video/cards-v5/hook.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "02-context",
+      "label": "Disconnected dealership information",
+      "start": 8,
+      "end": 24,
+      "source": "docs/video/cards-v6/context.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "03-maria",
+      "label": "Sample dealership: Maria and the missed alternative",
+      "start": 24,
+      "end": 52,
+      "source": "docs/video/scenes/v3-maria.mp4",
+      "source_options": {
+        "offset": 2
+      }
+    },
+    {
+      "shot": "04-proof",
+      "label": "Dated industry benchmark: 42.7% and 61.2%",
+      "start": 52,
+      "end": 58,
+      "source": "docs/video/cards-v5/proof.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "05-thesis",
+      "label": "Connect lead to offer in time",
+      "start": 58,
+      "end": 64,
+      "source": "docs/video/cards-v5/thesis.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "carry-04",
+      "label": "SalesDesk introduction",
+      "start": 64,
+      "end": 72,
+      "source": "docs/video/cards-v4/title.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "carry-05",
+      "label": "Parallel review explainer",
+      "start": 72,
+      "end": 81,
+      "source": "docs/video/cards-v3/fanout.mp4",
+      "source_options": {
+        "chapter": 1,
+        "tempo": 0.75
+      }
+    },
+    {
+      "shot": "carry-06",
+      "label": "Real Group mid-run",
+      "start": 81,
+      "end": 83,
+      "source": "docs/video/scenes/v3-run.mp4",
+      "source_options": {
+        "offset": 8,
+        "chapter": 1,
+        "chapter_offset": 9
+      }
+    },
+    {
+      "shot": "carry-07",
+      "label": "Sandy lead risk",
+      "start": 83,
+      "end": 99,
+      "source": "docs/video/scenes/v3-run.mp4",
+      "source_options": {
+        "offset": 29,
+        "chapter": 2
+      }
+    },
+    {
+      "shot": "carry-08",
+      "label": "Local and sister-store inventory",
+      "start": 99,
+      "end": 107,
+      "source": "docs/video/scenes/v3-run.mp4",
+      "source_options": {
+        "offset": 41,
+        "chapter": 3
+      }
+    },
+    {
+      "shot": "carry-09",
+      "label": "Match scoring",
+      "start": 107,
+      "end": 119,
+      "source": "docs/video/stills/v3-match-score.png",
+      "source_options": {
+        "still": true,
+        "chapter": 3,
+        "chapter_offset": 8
+      }
+    },
+    {
+      "shot": "carry-10",
+      "label": "Qwen brief and three drafts",
+      "start": 119,
+      "end": 129,
+      "source": "docs/video/scenes/v3-run.mp4",
+      "source_options": {
+        "offset": 60,
+        "chapter": 4
+      }
+    },
+    {
+      "shot": "carry-11",
+      "label": "Recorded run completion",
+      "start": 129,
+      "end": 135,
+      "source": "docs/video/cards-v3/skip.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "carry-12",
+      "label": "Maria result introduction",
+      "start": 135,
+      "end": 137,
+      "source": "docs/video/scenes/v3-maria.mp4",
+      "source_options": {
+        "offset": 2
+      }
+    },
+    {
+      "shot": "carry-13",
+      "label": "Maria model, trim, score and colour",
+      "start": 137,
+      "end": 148,
+      "source": "docs/video/stills/v3-match-score.png",
+      "source_options": {
+        "still": true
+      }
+    },
+    {
+      "shot": "carry-14",
+      "label": "Maria enquiry and contact timeline",
+      "start": 148,
+      "end": 158,
+      "source": "docs/video/scenes/v3-maria.mp4",
+      "source_options": {
+        "offset": 2
+      }
+    },
+    {
+      "shot": "carry-15",
+      "label": "Maria draft and trade-in explanation",
+      "start": 158,
+      "end": 172,
+      "source": "docs/video/scenes/v3-maria.mp4",
+      "source_options": {
+        "offset": 10
+      }
+    },
+    {
+      "shot": "carry-16",
+      "label": "Ranked manager queue",
+      "start": 172,
+      "end": 178,
+      "source": "docs/video/stills/v3-approve-queue.png",
+      "source_options": {
+        "still": true
+      }
+    },
+    {
+      "shot": "carry-17",
+      "label": "Actual approval click",
+      "start": 178,
+      "end": 181,
+      "source": "docs/video/scenes/v3-approve.mp4",
+      "source_options": {
+        "offset": 0.5
+      }
+    },
+    {
+      "shot": "carry-18",
+      "label": "Ready tasks and draft downloads",
+      "start": 181,
+      "end": 185,
+      "source": "docs/video/scenes/v3-ready.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "carry-19",
+      "label": "Matched lead total",
+      "start": 185,
+      "end": 191,
+      "source": "docs/video/cards-v4/matched.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "carry-20",
+      "label": "Estimated gross associated with matches",
+      "start": 191,
+      "end": 201,
+      "source": "docs/video/cards-v4/gross.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "carry-21",
+      "label": "Vultr and validation",
+      "start": 201,
+      "end": 213,
+      "source": "docs/video/cards-v3/architecture.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "carry-22",
+      "label": "Practical morning workflow",
+      "start": 213,
+      "end": 225,
+      "source": "docs/video/cards-v4/workflow.mp4",
+      "source_options": {}
+    },
+    {
+      "shot": "carry-23",
+      "label": "Enterprise analyst close",
+      "start": 225,
+      "end": 229,
+      "source": "docs/video/cards-v4/end.mp4",
+      "source_options": {}
+    }
+  ],
+  "provenance": "Adds original editorial hook/stat/thesis graphics and reuses accepted v4 walkthrough sources; no new review, inference, customer send or UI manipulation."
+}

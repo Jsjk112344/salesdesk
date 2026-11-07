@@ -1,0 +1,18 @@
+{
+  "duration_seconds": 229,
+  "frames": 6870,
+  "words": 526,
+  "caption_cues": 60,
+  "script_caption_match": true,
+  "cue_overlap": false,
+  "caption_lines_max": 2,
+  "caption_width_max": 42,
+  "opening_stops_seconds": [
+    8,
+    24,
+    52,
+    58,
+    64
+  ],
+  "caption_basis": "Paced guide; no recorded VO supplied."
+}

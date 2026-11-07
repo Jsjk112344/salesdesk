@@ -3,13 +3,12 @@
 Product name: **SalesDesk** (renamed from ProofDesk on 2026-11-05). Existing operational
 identifiers and dated historical entries retain their original names.
 
-Current checkpoint: **Hook-first video v5 is prepared at 3:17.**
-The 463-word script has 54 guide caption cues. The opening stops at 0:08, 0:20,
-0:26 and 0:32; dated industry statistics precede the retained walkthrough.
-Both silent exports are 197.000 s, 1080p/30fps. See `docs/video/REVIEW-v5.md`,
-`docs/video/video-plan-v5.md` and `docs/video/_review/v5-contact.png`.
-Original public execution evidence is unchanged. Owner records VO, aligns final
-captions/audio, uploads and submits. No receipt exists.
+Current checkpoint: **Dealership-context video v6 is prepared at 3:49.**
+The 526-word script has 60 guide caption cues. A dealership setup precedes Maria;
+industry proof follows, and the retained enterprise walkthrough begins at 1:04.
+Both silent exports are 229.000 s, 1080p/30fps. See `docs/video/REVIEW-v6.md`,
+`docs/video/video-plan-v6.md` and `docs/video/_review/v6-contact.png`.
+Owner records VO, aligns final captions/audio, uploads and submits. No receipt exists.
 
 Public URL: https://salesdesk.149.28.51.139.sslip.io
 
@@ -1397,4 +1396,20 @@ allowing untrusted code. Select and evaluate Vultr models with an authorized cal
   Updated hand-off, review sheet, contact sheet and artifact hashes. No recorded VO
   was supplied; align final captions to the owner's recording before upload.
 - Owner still records VO, completes the audio edit, uploads and submits by the
+  owner-supplied Sunday November 8, 16:00 ET target. No submission receipt exists.
+
+## Dealership setup video v6: 2026-11-07 ET
+
+- Added the approved dealership setup before Maria: separate CRM and stock data,
+  manual cross-checking and an overlooked alternative when the first-choice car sells.
+  Three original brand-style graphic beats introduce the sample dealership example.
+- Expanded Maria narration explains the missed follow-up without claiming her current
+  buying intent is known. Existing contact history and benchmark facts are unchanged.
+- Retimed to **229 seconds / 6870 frames** with **526 words / 60 guide cues**.
+  Opening stops: 8, 24, 52, 58 and 64 seconds. No voice track has been supplied.
+  Existing whole-screen sources, locked camera and deliberate cursor motion retained.
+- Media probes, caption/script matching, caption limits, lint/format and repository
+  links checked. Updated contact sheet, scene plan, recording hand-off and asset hashes.
+  No new app run, inference, deploy or spend. Original execution evidence unchanged.
+- Owner still records VO, aligns final captions/audio, uploads and submits by the
   owner-supplied Sunday November 8, 16:00 ET target. No submission receipt exists.

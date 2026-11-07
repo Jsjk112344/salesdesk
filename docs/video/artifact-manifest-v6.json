@@ -1,0 +1,231 @@
+{
+  "version": 6,
+  "assets": {
+    "docs/video/RECORDING.md": {
+      "bytes": 4176,
+      "sha256": "8e80f0676d6152f5c98d27a5f9b8935f423fb2c3ad1d34b4152239e50d6ae6bf"
+    },
+    "docs/video/REVIEW-v6.md": {
+      "bytes": 1435,
+      "sha256": "ce99df251a7d1be1d38824c16db5e375385d5a914a7c9eb9e2c5a7692d840ae4"
+    },
+    "docs/video/_review/v6-contact.png": {
+      "bytes": 1171727,
+      "sha256": "9b1ad2506c48999e9d5d8b6acab3385d2f89e64fd71d11894b3d8e6389527d5e"
+    },
+    "docs/video/_review/v6-shot-01-hook.png": {
+      "bytes": 179123,
+      "sha256": "6ac283a0f704ed15bdaead766b2ca21f1bb6b6bb11d5fd35d775f2011caa7f67"
+    },
+    "docs/video/_review/v6-shot-02-context.png": {
+      "bytes": 200690,
+      "sha256": "54df18b7173c0ba70fb671156a2dc2013440500a2eec0b697f44e216f9d7455d"
+    },
+    "docs/video/_review/v6-shot-03-maria.png": {
+      "bytes": 728040,
+      "sha256": "2535d988b1189d34a0849d191e5e3c884f1275127c3843ffef460cf62db3530e"
+    },
+    "docs/video/_review/v6-shot-04-proof.png": {
+      "bytes": 299870,
+      "sha256": "9b86d0a27d4d3ae75de7aa113de0442ea859074d02a5dd0e9fe9fc7166913d64"
+    },
+    "docs/video/_review/v6-shot-05-thesis.png": {
+      "bytes": 191732,
+      "sha256": "668fa85e1f729b551e9770315ff77b5846be5f5d94e32da241275be983eecebd"
+    },
+    "docs/video/_review/v6-shot-carry-04.png": {
+      "bytes": 227966,
+      "sha256": "1406894615731fe494379742a7c8313f7c6132e084cb65023b2c41c51bd0cd53"
+    },
+    "docs/video/_review/v6-shot-carry-05.png": {
+      "bytes": 619020,
+      "sha256": "4075cc0376f88b35e6b4bfa8c053ae3f240a1c64d14ae1c7def248171b11b6d7"
+    },
+    "docs/video/_review/v6-shot-carry-06.png": {
+      "bytes": 763090,
+      "sha256": "1a46e11847a9448606972a1346795102f63e0bed11bc613a8db30e9cde2b7617"
+    },
+    "docs/video/_review/v6-shot-carry-07.png": {
+      "bytes": 582041,
+      "sha256": "a83c5f485ba0bc2f572c166dad54994e26cf49ae98ca90b60439fcc28f377c78"
+    },
+    "docs/video/_review/v6-shot-carry-08.png": {
+      "bytes": 704139,
+      "sha256": "d74ce04b9bbf1973fb2b3710ee16408a904e43b3a34e0f8865791a2f229dfd3c"
+    },
+    "docs/video/_review/v6-shot-carry-09.png": {
+      "bytes": 523630,
+      "sha256": "a63affcbe2c574308e89b135c285ddee6d955238fb7cba16a0a54b16bd94c4ce"
+    },
+    "docs/video/_review/v6-shot-carry-10.png": {
+      "bytes": 720607,
+      "sha256": "1d9d762bd12b0919015f5a2b3e8c41c968278c611cc20ed267e7db32ebf15164"
+    },
+    "docs/video/_review/v6-shot-carry-11.png": {
+      "bytes": 149371,
+      "sha256": "684308e2705805f7ba03416b9ea20749746e715c2ecc0bf6b3c893192f017bd7"
+    },
+    "docs/video/_review/v6-shot-carry-13.png": {
+      "bytes": 573548,
+      "sha256": "be16466d3259e1290467e197eca396e46b8e3486a5b772d1b1fdaadb55d88313"
+    },
+    "docs/video/_review/v6-shot-carry-14.png": {
+      "bytes": 701110,
+      "sha256": "242f19d17f1c99598b594041f170de4ad338a8ba527d6f21517e10b42b247dc9"
+    },
+    "docs/video/_review/v6-shot-carry-15.png": {
+      "bytes": 704059,
+      "sha256": "246a4408da3f86bfadcbcc9c118b34ed03d9aaa2acdfc68b8ca745810df963bd"
+    },
+    "docs/video/_review/v6-shot-carry-16.png": {
+      "bytes": 479844,
+      "sha256": "fc4fed4f63d573bd4accbe5d2d35fce69e45eb638de03b9e12561b7660195db1"
+    },
+    "docs/video/_review/v6-shot-carry-18.png": {
+      "bytes": 694769,
+      "sha256": "b8fd36ff00866db27b6fc09ce15a0b07239fbfefe7af05d8629a62f6d6100331"
+    },
+    "docs/video/_review/v6-shot-carry-19.png": {
+      "bytes": 148363,
+      "sha256": "1523228b83cc1a46a1fe16ef76d000991f9bc5a75154692cb3bac5fa8bb431c0"
+    },
+    "docs/video/_review/v6-shot-carry-20.png": {
+      "bytes": 178903,
+      "sha256": "5d062a98add5c8cc36f1826f00ee88e6e44815602c8b7040186d85da05f9a0f4"
+    },
+    "docs/video/_review/v6-shot-carry-21.png": {
+      "bytes": 163201,
+      "sha256": "03d80fcb8597f70e4c50a70bbe0b093e627e007a3b0d12d5db25d0514cf6be00"
+    },
+    "docs/video/_review/v6-shot-carry-22.png": {
+      "bytes": 241310,
+      "sha256": "2c6f2fd9e06e58b7d6ab9d7a0bbc9d7a42e464cf59b6531ca3a42ef5d2d019fb"
+    },
+    "docs/video/_review/v6-shot-carry-23.png": {
+      "bytes": 223161,
+      "sha256": "e2bf10c441d4cbc39dbabffad0cbef712587a6390f6afaa0c4130fbb043ebcfd"
+    },
+    "docs/video/card-v6-context.html": {
+      "bytes": 4129,
+      "sha256": "a01d55b7ff472a01d23c47015baf6896801fc280477dd10d2af0439ba93b0a55"
+    },
+    "docs/video/cards-v6/context.mp4": {
+      "bytes": 136113,
+      "sha256": "08311efa9097641fce37a809e256bff27d5c6b9140a2259d07b36da2a4e3c877"
+    },
+    "docs/video/narration-v6.txt": {
+      "bytes": 3134,
+      "sha256": "ad93a4f5c7521fbf3f08165ca28dc916076ec517c348f714c2d1dddae9973a4e"
+    },
+    "docs/video/salesdesk-v6-nosubs.mp4": {
+      "bytes": 7994449,
+      "sha256": "eba9bf77865f7a9a3c30dd8f35c7baff738eceb38949412ff634912dfd719240"
+    },
+    "docs/video/salesdesk-v6.mp4": {
+      "bytes": 9250214,
+      "sha256": "4e71a623d83723c42944cf9c75253393af9a57c9c2813602d3ad7de9b87f1b58"
+    },
+    "docs/video/shot-manifest-v6.json": {
+      "bytes": 5791,
+      "sha256": "263b3f166306f5d207d112376bbd34e90038b4d91d7f3fb870501a08b90e38aa"
+    },
+    "docs/video/subtitles-v6.ass": {
+      "bytes": 6770,
+      "sha256": "17ef3bedb145b84a6833cab5edb01c7123cf98f03dad94f6a2e5ac60392481f0"
+    },
+    "docs/video/subtitles-v6.srt": {
+      "bytes": 5143,
+      "sha256": "d1f09f2027b135319a46cdb714298c94d1c65e3aecbf902ff96a4e7efcbcdb20"
+    },
+    "docs/video/timeline-v6.json": {
+      "bytes": 15225,
+      "sha256": "5d7da363bb361b377cbe067e94e2fd25c0e188eb682495f72c746fc8e5237c44"
+    },
+    "docs/video/v6-export-check.json": {
+      "bytes": 326,
+      "sha256": "d9a7c45255f26ffefb001317464850209796500e0a85dc500ce3f39dd521ddde"
+    },
+    "docs/video/v6-timing-check.json": {
+      "bytes": 327,
+      "sha256": "401babb61eaa94074929c46f3a3fef2449dd3f24eabbc4c3edbd445c1f5c50b3"
+    },
+    "docs/video/video-plan-v6.md": {
+      "bytes": 1641,
+      "sha256": "75485b689c72f656be37ef003d39b7881ffe3c32a623176105d9ca832f688f36"
+    }
+  },
+  "source_assets": {
+    "docs/video/cards-v3/architecture.mp4": {
+      "bytes": 113240,
+      "sha256": "3b32d038d2c64ed51e9ba3cf0770c714f2d5f8faa6bfb5b005dc6dc60f6ae7ba"
+    },
+    "docs/video/cards-v3/fanout.mp4": {
+      "bytes": 1033769,
+      "sha256": "237fd37eb10a4cfc3bf78f549ee7c65aa2a700cac4f796bdc17e5b2d8772785e"
+    },
+    "docs/video/cards-v3/skip.mp4": {
+      "bytes": 34082,
+      "sha256": "a207e93bd05d9748f035dc93973db70c5cbeebe081723eaa7f7361555f63eb3a"
+    },
+    "docs/video/cards-v4/end.mp4": {
+      "bytes": 62170,
+      "sha256": "71094d109f6acc2b4e02965013647f466c5454940f8a452b9d27f1f776169508"
+    },
+    "docs/video/cards-v4/gross.mp4": {
+      "bytes": 128781,
+      "sha256": "349b213d154e3a7b1e58987577b663403f49281df68ab8cedf952fe96450a8cf"
+    },
+    "docs/video/cards-v4/matched.mp4": {
+      "bytes": 58036,
+      "sha256": "f411d2f347f5593a675b553b5d2be42db1142809df55f979d5d96996bfd57fa0"
+    },
+    "docs/video/cards-v4/title.mp4": {
+      "bytes": 55621,
+      "sha256": "0b0e02123c023ad9321703e28d90ffd46636d7902af4a15efab6e67b04f98be1"
+    },
+    "docs/video/cards-v4/workflow.mp4": {
+      "bytes": 142018,
+      "sha256": "cf176efeca0c397237a7f54599cf490e7d0b71bf5edb8c0b83ddbf97013b2166"
+    },
+    "docs/video/cards-v5/hook.mp4": {
+      "bytes": 101286,
+      "sha256": "f27de71679019a7151546c1fc691392774272bcb329c1acd2a6ce4903bca36ed"
+    },
+    "docs/video/cards-v5/proof.mp4": {
+      "bytes": 99421,
+      "sha256": "9f728440b9debf13d4ed968ab28c2eec8723a8d2a14c15d0a3c2db21a7ff926d"
+    },
+    "docs/video/cards-v5/thesis.mp4": {
+      "bytes": 44290,
+      "sha256": "2767550542ff0494cbfffb0c787069cd9a291bb39ed98f79005e74a7fcf02ac7"
+    },
+    "docs/video/cards-v6/context.mp4": {
+      "bytes": 136113,
+      "sha256": "08311efa9097641fce37a809e256bff27d5c6b9140a2259d07b36da2a4e3c877"
+    },
+    "docs/video/scenes/v3-approve.mp4": {
+      "bytes": 462362,
+      "sha256": "db09eaf52ee9d604c22141d82ab957e1439ccb45ef76fe7370132392ea018a6b"
+    },
+    "docs/video/scenes/v3-maria.mp4": {
+      "bytes": 1617747,
+      "sha256": "1e6dc2b4b1163c4e4b332c0656b833c8902b440f17d6ae0c5b9d7c424224a546"
+    },
+    "docs/video/scenes/v3-ready.mp4": {
+      "bytes": 326232,
+      "sha256": "460a02f2836b4a9197a4c07460ab407b9c57f616b216f20ab89ddbde0a29ce20"
+    },
+    "docs/video/scenes/v3-run.mp4": {
+      "bytes": 4579387,
+      "sha256": "642e895632b85080ed99412a4119cd728dae59eac0ec85ef0aa7c0e9e9b5bacf"
+    },
+    "docs/video/stills/v3-approve-queue.png": {
+      "bytes": 236313,
+      "sha256": "e1126ddd837298ba1995bf7b7df811277c2e54419696e6ad6a874bde8bd958aa"
+    },
+    "docs/video/stills/v3-match-score.png": {
+      "bytes": 393937,
+      "sha256": "ecbfc56bfa797ae7039909be078a5ddf11e9fd035ff1d7029305ed51ae54df23"
+    }
+  }
+}

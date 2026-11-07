@@ -3,8 +3,8 @@
 # ruff: noqa: E501
 import argparse
 import json
-import subprocess
 import shutil
+import subprocess
 
 from scripts.assemble_demo_video import FFMPEG, ROOT, VIDEO, probe
 

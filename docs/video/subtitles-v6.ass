@@ -1,0 +1,73 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Inter,42,&H00FFFFFF,&H00FFFFFF,&H66000000,&H66000000,0,0,0,0,100,100,0,0,3,12,0,2,100,100,56,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:02.32,Default,,0,0,56,,Every sales team has the same leak.
+Dialogue: 0,0:00:02.39,0:00:04.64,Default,,0,0,56,,Not bad products, not bad salespeople.
+Dialogue: 0,0:00:04.71,0:00:07.80,Default,,0,0,56,,Leads that go quiet, and nobody follows up\Nin time.
+Dialogue: 0,0:00:08.15,0:00:12.88,Default,,0,0,56,,Let's look at a car dealership. Leads are\Nin the CRM,
+Dialogue: 0,0:00:12.95,0:00:14.77,Default,,0,0,56,,stock is tracked separately,
+Dialogue: 0,0:00:14.84,0:00:18.18,Default,,0,0,56,,and follow-ups depend on salespeople\Nchecking both.
+Dialogue: 0,0:00:18.25,0:00:20.76,Default,,0,0,56,,When a customer's first choice sells,
+Dialogue: 0,0:00:20.83,0:00:23.80,Default,,0,0,56,,a suitable alternative can go unnoticed.
+Dialogue: 0,0:00:24.15,0:00:30.64,Default,,0,0,56,,In our sample dealership, Maria asked\Nabout a blue RAV4 Hybrid nine days ago.
+Dialogue: 0,0:00:30.70,0:00:33.74,Default,,0,0,56,,Her last contact was a week ago.
+Dialogue: 0,0:00:33.81,0:00:36.38,Default,,0,0,56,,Since then, that car has sold,
+Dialogue: 0,0:00:36.45,0:00:42.28,Default,,0,0,56,,while a silver alternative has been\Nsitting at the same dealership for 74
+Dialogue: 0,0:00:42.35,0:00:46.64,Default,,0,0,56,,days. The dealership has an option worth\Nshowing her.
+Dialogue: 0,0:00:46.71,0:00:51.80,Default,,0,0,56,,But nobody has followed up to find out\Nwhether she's still looking.
+Dialogue: 0,0:00:52.15,0:00:55.04,Default,,0,0,56,,Nearly half of qualified leads are\Nmishandled.
+Dialogue: 0,0:00:55.10,0:00:57.80,Default,,0,0,56,,Most eventual buyers purchase within three\Ndays.
+Dialogue: 0,0:00:58.15,0:01:03.80,Default,,0,0,56,,Sales slip away when nobody connects the\Nlead to the right offer in time.
+Dialogue: 0,0:01:04.15,0:01:07.09,Default,,0,0,56,,SalesDesk is your AI enterprise sales\Nanalyst.
+Dialogue: 0,0:01:07.16,0:01:11.80,Default,,0,0,56,,It does that review overnight and prepares\Nthe follow-ups for your team.
+Dialogue: 0,0:01:12.15,0:01:16.61,Default,,0,0,56,,At 2 AM, it starts reviewing each store's\Nleads and inventory.
+Dialogue: 0,0:01:16.68,0:01:20.80,Default,,0,0,56,,Six stores run in parallel, in isolated\Nsandboxes on Vultr.
+Dialogue: 0,0:01:21.15,0:01:22.80,Default,,0,0,56,,Let's look at Sandy.
+Dialogue: 0,0:01:23.15,0:01:28.90,Default,,0,0,56,,SalesDesk reviews its 375 open leads and\Nflags 40 that need attention.
+Dialogue: 0,0:01:28.98,0:01:32.43,Default,,0,0,56,,Twenty-five have gone at least three days\Nwithout contact.
+Dialogue: 0,0:01:32.50,0:01:35.56,Default,,0,0,56,,Others are waiting on a car that has sold,
+Dialogue: 0,0:01:35.63,0:01:38.80,Default,,0,0,56,,or have an appointment that needs\Nfollowing up.
+Dialogue: 0,0:01:39.15,0:01:41.36,Default,,0,0,56,,It then checks the available inventory:
+Dialogue: 0,0:01:41.43,0:01:43.64,Default,,0,0,56,,117 cars at Sandy
+Dialogue: 0,0:01:43.71,0:01:46.80,Default,,0,0,56,,and more than sixteen hundred at nearby\Nsister stores.
+Dialogue: 0,0:01:47.15,0:01:51.42,Default,,0,0,56,,Each potential match is scored against\Nwhat the customer asked for,
+Dialogue: 0,0:01:51.49,0:01:54.70,Default,,0,0,56,,including the model, trim, budget and\Nmileage.
+Dialogue: 0,0:01:54.77,0:01:58.80,Default,,0,0,56,,Cars that have been in stock longer get\Nextra priority.
+Dialogue: 0,0:01:59.15,0:02:01.91,Default,,0,0,56,,Qwen, running on Vultr Serverless\NInference,
+Dialogue: 0,0:02:01.98,0:02:05.31,Default,,0,0,56,,uses those checked results to write\NSandy's morning brief
+Dialogue: 0,0:02:05.38,0:02:08.80,Default,,0,0,56,,and three follow-up drafts for its\Npriority leads.
+Dialogue: 0,0:02:09.15,0:02:12.34,Default,,0,0,56,,The recorded review finishes across all 24\Nstores
+Dialogue: 0,0:02:12.41,0:02:14.80,Default,,0,0,56,,in two minutes and seven seconds.
+Dialogue: 0,0:02:15.15,0:02:16.80,Default,,0,0,56,,Here's Maria's result.
+Dialogue: 0,0:02:17.15,0:02:22.00,Default,,0,0,56,,The silver RAV4 is the same model and trim\Nshe originally asked about.
+Dialogue: 0,0:02:22.07,0:02:27.80,Default,,0,0,56,,It scores 98 out of 100, with the colour\Ndifference shown in the breakdown.
+Dialogue: 0,0:02:28.15,0:02:30.99,Default,,0,0,56,,The manager can see her original enquiry,
+Dialogue: 0,0:02:31.06,0:02:33.20,Default,,0,0,56,,when she was last contacted,
+Dialogue: 0,0:02:33.27,0:02:37.80,Default,,0,0,56,,and when the blue car sold, all in the\Nsame view.
+Dialogue: 0,0:02:38.15,0:02:42.36,Default,,0,0,56,,Below that is a draft message mentioning\Nthe available silver RAV4
+Dialogue: 0,0:02:42.43,0:02:46.43,Default,,0,0,56,,and asking about her 2017 Honda CR-V\Ntrade-in.
+Dialogue: 0,0:02:46.50,0:02:49.34,Default,,0,0,56,,The salesperson has the context and a\Nmessage
+Dialogue: 0,0:02:49.41,0:02:51.80,Default,,0,0,56,,ready to review before contacting her.
+Dialogue: 0,0:02:52.15,0:02:57.02,Default,,0,0,56,,By the morning, Sandy's manager has a\Nranked queue of 40 follow-ups.
+Dialogue: 0,0:02:57.09,0:03:00.97,Default,,0,0,56,,They can review individual drafts or\Napprove the queue together,
+Dialogue: 0,0:03:01.04,0:03:04.80,Default,,0,0,56,,then download the tasks and drafts for\Ntheir salespeople.
+Dialogue: 0,0:03:05.15,0:03:11.29,Default,,0,0,56,,Across the group, 1,007 at-risk leads have\Nbeen matched to a car in stock.
+Dialogue: 0,0:03:11.36,0:03:16.34,Default,,0,0,56,,The estimated gross associated with those\Nmatches is about $3.4 million.
+Dialogue: 0,0:03:16.41,0:03:20.80,Default,,0,0,56,,Managers can use that view to decide where\Ntheir teams should focus.
+Dialogue: 0,0:03:21.15,0:03:25.37,Default,,0,0,56,,The scheduler and analysis jobs run on a\NVultr VM.
+Dialogue: 0,0:03:25.44,0:03:28.13,Default,,0,0,56,,Qwen runs on Vultr Serverless Inference,
+Dialogue: 0,0:03:28.20,0:03:32.80,Default,,0,0,56,,and its output is validated before it\Nreaches the approval queue.
+Dialogue: 0,0:03:33.15,0:03:37.45,Default,,0,0,56,,SalesDesk gives your team a practical\Nstarting point each morning:
+Dialogue: 0,0:03:37.52,0:03:40.06,Default,,0,0,56,,which customers to follow up with,
+Dialogue: 0,0:03:40.13,0:03:44.80,Default,,0,0,56,,which cars to offer, and a draft they can\Nwork from.
+Dialogue: 0,0:03:45.15,0:03:48.80,Default,,0,0,56,,SalesDesk. Your AI enterprise sales\Nanalyst.

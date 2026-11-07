@@ -1,0 +1,16 @@
+{
+  "salesdesk-v6-nosubs.mp4": {
+    "duration_seconds": 229,
+    "frames": 6870,
+    "video": "1920x1080 30fps H.264",
+    "audio": "none",
+    "bytes": 7994449
+  },
+  "salesdesk-v6.mp4": {
+    "duration_seconds": 229,
+    "frames": 6870,
+    "video": "1920x1080 30fps H.264",
+    "audio": "none",
+    "bytes": 9250214
+  }
+}

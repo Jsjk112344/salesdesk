@@ -1,6 +1,13 @@
 # SalesDesk video artifacts
 
-## Current: v5
+## Current: v6
+
+- [Captioned 3:49 cut](salesdesk-v6.mp4) · [clean cut](salesdesk-v6-nosubs.mp4).
+- [Contact sheet](_review/v6-contact.png) · [scene stops](video-plan-v6.md).
+- [Full script](narration-v6.txt) · [guide captions](subtitles-v6.srt).
+- [Hand-off](RECORDING.md) · [review](REVIEW-v6.md).
+
+## Previous: v5
 
 - [Captioned 3:17 cut](salesdesk-v5.mp4) · [clean cut](salesdesk-v5-nosubs.mp4).
 - [Contact sheet](_review/v5-contact.png) · [opening and scene stops](video-plan-v5.md).

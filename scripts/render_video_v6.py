@@ -13,8 +13,6 @@ from scripts.render_demo_assets import CSS, LOGO, ROOT, VIDEO
 
 async def main(only=None):
     evidence = json.loads((VIDEO / "industry-sources-v5.json").read_text())
-    timeline = json.loads((VIDEO / "timeline-v6.json").read_text())
-    hook_cues = [c for c in timeline["cues"] if c["beat"] == 2]
     out = VIDEO / "cards-v6"
     out.mkdir(exist_ok=True)
     work = ROOT / ".local/video-prep/cards-v6"
